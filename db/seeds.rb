@@ -26,11 +26,11 @@ end
   Post.create!(
     user: User.second,
     label: Label.second,
-    title: "post#{i + 3}"
+    title: "post#{i + 2}"
   )
   Post.create!(
     user: User.third,
     label: Label.third,
-    title: "post#{i + 6}"
+    title: "post#{i + 4}"
   )
 end
