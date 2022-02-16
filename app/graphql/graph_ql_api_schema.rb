@@ -48,4 +48,5 @@ class GraphQlApiSchema < GraphQL::Schema
     full_global_id = "gid://#{GlobalID.app}/#{id}"
     GlobalID::Locator.locate(full_global_id)
   end
+  use GraphQL::Batch
 end
